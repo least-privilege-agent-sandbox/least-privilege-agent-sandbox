@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+type: software
+message: "Use this metadata to identify Least-Privilege Agent Sandbox."
+title: "Least-Privilege Agent Sandbox"
+version: 0.1.0
+date-released: "2026-09-25"
+authors:
+  - family-names: Sawant
+    given-names: Parag
+repository-code: "https://github.com/least-privilege-agent-sandbox/least-privilege-agent-sandbox"
+license: Apache-2.0

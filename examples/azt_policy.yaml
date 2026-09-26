@@ -1,0 +1,33 @@
+subjects:
+  "spiffe://ztap.test/agent/*":
+    allowed_tools:
+      - "http.get"
+      - "http.post"
+      - "fs.write"
+      - "fs.delete"
+      - "email.send"
+      - "secrets.get"
+      - "shell.exec"
+      - "mcp.weather.get"
+      - "mcp.math.add"
+      - "mcp.notes.search"
+      - "db.query"
+    fs:
+      read: [".", "/workspace"]
+      write: [".", "/workspace"]
+    executables:
+      - "python"
+      - "python3"
+      - "git"
+      - "ruff"
+      - "mypy"
+    network:
+      - "*.internal:443"
+      - "api.internal:443"
+      - "ztap.test:443"
+      - "*.ztap.test:443"
+      - "*.github.com:443"
+      - "*.pypi.org:443"
+      - "*.python.org:443"
+      - "*.wikipedia.org:443"
+    max_arg_bytes: 4096

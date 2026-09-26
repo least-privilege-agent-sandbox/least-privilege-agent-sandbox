@@ -1,0 +1,5 @@
+BPF compile status: PASS
+Command: clang -O2 -g -target bpf -I/usr/include/$(uname -m)-linux-gnu -c bpf/leap_lsm.bpf.c -o bpf/leap_lsm.bpf.o
+Environment: python:3.12-slim Docker container after apt-get install -y --no-install-recommends clang libbpf-dev
+Output: bpf/leap_lsm.bpf.o 8872 bytes
+Runtime status: not measured locally; Docker/host kernel lacks BPF LSM.

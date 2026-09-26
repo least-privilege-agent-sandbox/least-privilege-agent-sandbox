@@ -1,0 +1,15 @@
+{
+  "main": {
+    "status": "PASS",
+    "states_generated": 472637,
+    "distinct_states": 113442,
+    "depth": 17
+  },
+  "coop_only": {
+    "status": "EXPECTED_COUNTEREXAMPLE",
+    "states_generated": 1171,
+    "distinct_states": 673,
+    "depth": 5,
+    "violated_invariant": "NoDeniedEffect"
+  }
+}

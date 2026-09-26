@@ -1,0 +1,1471 @@
+id,category,expected,returncode,ok,denied_by,stderr_tail
+deny-write-015,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-read-015,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/15-748916362.txt'
+"
+deny-write-026,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-symlink-004,deny.symlink,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/4.lnk'
+"
+deny-unlink-018,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/18-138038218.txt'
+"
+permit-mkdir-003,permit.mkdir,permitted,0,True,,
+deny-write-042,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-mkdir-019,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-symlink-025,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/25.lnk'
+"
+deny-write-049,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-unlink-007,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/7-704305495.txt'
+"
+deny-truncate-031,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/31-106757247.txt'
+"
+deny-write-011,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-rename-023,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/23-667905642.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/23-667905642.moved'
+"
+deny-symlink-027,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/27.lnk'
+"
+permit-write-017,permit.write,permitted,0,True,,
+deny-exec-024,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+permit-rename-000,permit.rename,permitted,0,True,,
+deny-read-016,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/16-254952711.txt'
+"
+permit-rename-004,permit.rename,permitted,0,True,,
+deny-dotdot-011,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/11-668010301.txt'
+"
+deny-symlink-032,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/32.lnk'
+"
+deny-unlink-028,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/28-444979594.txt'
+"
+deny-read-006,deny.read,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/6-768312558.txt'
+"
+permit-hardlink-001,permit.hardlink,permitted,0,True,,
+deny-mkdir-024,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+permit-read-018,permit.read,permitted,0,True,,
+permit-write-023,permit.write,permitted,0,True,,
+deny-unlink-023,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/23-105983818.txt'
+"
+permit-unlink-006,permit.unlink,permitted,0,True,,
+deny-unlink-030,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/30-832332978.txt'
+"
+permit-read-007,permit.read,permitted,0,True,,
+deny-rename-016,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/16-110598319.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/16-110598319.moved'
+"
+deny-symlink-003,deny.symlink,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/3.lnk'
+"
+deny-dotdot-001,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/1-975148319.txt'
+"
+deny-truncate-030,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/30-849607148.txt'
+"
+deny-symlink-002,deny.symlink,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/2.lnk'
+"
+permit-mkdir-006,permit.mkdir,permitted,0,True,,
+deny-exec-012,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-symlink-020,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/20.lnk'
+"
+deny-mkdir-014,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-unlink-029,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/29-38260138.txt'
+"
+deny-write-024,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-symlink-022,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/22.lnk'
+"
+deny-dotdot-010,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/10-407366765.txt'
+"
+deny-unlink-031,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/31-530251798.txt'
+"
+deny-dotdot-008,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/8-493162916.txt'
+"
+deny-mkdir-031,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-unlink-010,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/10-754874594.txt'
+"
+deny-read-046,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/46-701562068.txt'
+"
+deny-symlink-034,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/34.lnk'
+"
+deny-rename-031,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/31-159470930.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/31-159470930.moved'
+"
+deny-unlink-003,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/3-210488785.txt'
+"
+deny-mkdir-006,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-symlink-010,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/10.lnk'
+"
+deny-exec-003,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-unlink-013,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/13-533239891.txt'
+"
+deny-exec-018,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-truncate-012,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/12-749740344.txt'
+"
+deny-read-019,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/19-560069340.txt'
+"
+deny-dotdot-016,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/16-96909830.txt'
+"
+deny-unlink-021,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/21-741028704.txt'
+"
+deny-mkdir-021,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-dotdot-030,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/30-624333241.txt'
+"
+deny-write-004,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-unlink-008,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/8-522796972.txt'
+"
+deny-write-020,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-symlink-009,deny.symlink,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/9.lnk'
+"
+deny-mkdir-008,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+permit-symlink-009,permit.symlink,permitted,0,True,,
+deny-dotdot-002,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/2-606882234.txt'
+"
+permit-write-008,permit.write,permitted,0,True,,
+deny-symlink-019,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/19.lnk'
+"
+deny-write-022,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-read-043,permit.read,permitted,0,True,,
+deny-truncate-022,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/22-646888578.txt'
+"
+deny-read-020,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/20-138057586.txt'
+"
+permit-symlink-004,permit.symlink,permitted,0,True,,
+deny-read-035,deny.read,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/35-53370715.txt'
+"
+deny-truncate-025,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/25-303923743.txt'
+"
+permit-read-002,permit.read,permitted,0,True,,
+permit-read-026,permit.read,permitted,0,True,,
+deny-dotdot-013,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/13-233808127.txt'
+"
+deny-read-040,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/40-664980005.txt'
+"
+deny-truncate-024,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/24-93162305.txt'
+"
+deny-write-038,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-read-010,permit.read,permitted,0,True,,
+permit-hardlink-007,permit.hardlink,permitted,0,True,,
+deny-rename-008,deny.rename,forbidden,1,True,kernel,"lf, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/8-170634332.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/8-170634332.moved'
+"
+deny-rename-033,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/33-299700339.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/33-299700339.moved'
+"
+deny-rename-020,deny.rename,forbidden,1,True,kernel,"lf, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/20-80314632.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/20-80314632.moved'
+"
+deny-truncate-004,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/4-484447194.txt'
+"
+permit-hardlink-009,permit.hardlink,permitted,0,True,,
+deny-unlink-034,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/34-38433077.txt'
+"
+permit-hardlink-003,permit.hardlink,permitted,0,True,,
+permit-rename-013,permit.rename,permitted,0,True,,
+permit-write-026,permit.write,permitted,0,True,,
+deny-exec-017,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-exec-021,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-mkdir-007,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-write-045,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-write-011,permit.write,permitted,0,True,,
+deny-read-005,deny.read,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/5-763190360.txt'
+"
+permit-symlink-003,permit.symlink,permitted,0,True,,
+deny-read-029,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/29-745074199.txt'
+"
+deny-read-012,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/12-432322613.txt'
+"
+deny-write-032,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-rename-019,permit.rename,permitted,0,True,,
+permit-hardlink-000,permit.hardlink,permitted,0,True,,
+permit-read-038,permit.read,permitted,0,True,,
+permit-mkdir-001,permit.mkdir,permitted,0,True,,
+deny-mkdir-026,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-mkdir-027,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-symlink-026,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/26.lnk'
+"
+deny-rename-025,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/25-226797025.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/25-226797025.moved'
+"
+permit-hardlink-006,permit.hardlink,permitted,0,True,,
+deny-read-018,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/18-971150152.txt'
+"
+permit-rename-018,permit.rename,permitted,0,True,,
+deny-read-048,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/48-718229926.txt'
+"
+deny-symlink-011,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/11.lnk'
+"
+permit-read-036,permit.read,permitted,0,True,,
+deny-symlink-013,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/13.lnk'
+"
+permit-write-019,permit.write,permitted,0,True,,
+deny-read-041,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/41-354381528.txt'
+"
+deny-write-037,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-read-011,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/11-248703996.txt'
+"
+deny-read-038,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/38-151550181.txt'
+"
+deny-rename-027,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/27-539106103.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/27-539106103.moved'
+"
+deny-mkdir-012,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-exec-014,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-dotdot-029,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/29-958624291.txt'
+"
+deny-mkdir-018,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-mkdir-000,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-write-027,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-symlink-033,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/33.lnk'
+"
+permit-write-015,permit.write,permitted,0,True,,
+deny-unlink-022,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/22-503599790.txt'
+"
+deny-truncate-017,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/17-455500755.txt'
+"
+deny-write-000,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-symlink-023,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/23.lnk'
+"
+deny-unlink-009,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/9-995626296.txt'
+"
+permit-symlink-007,permit.symlink,permitted,0,True,,
+deny-read-009,deny.read,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/9-789249211.txt'
+"
+deny-mkdir-028,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+permit-mkdir-013,permit.mkdir,permitted,0,True,,
+permit-unlink-003,permit.unlink,permitted,0,True,,
+deny-write-016,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-unlink-011,permit.unlink,permitted,0,True,,
+deny-read-025,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/25-567702706.txt'
+"
+deny-mkdir-015,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+permit-read-023,permit.read,permitted,0,True,,
+permit-read-019,permit.read,permitted,0,True,,
+permit-read-044,permit.read,permitted,0,True,,
+permit-write-000,permit.write,permitted,0,True,,
+deny-unlink-011,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/11-618677831.txt'
+"
+deny-rename-019,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/19-349256556.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/19-349256556.moved'
+"
+permit-unlink-004,permit.unlink,permitted,0,True,,
+permit-unlink-019,permit.unlink,permitted,0,True,,
+deny-dotdot-032,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/32-942498179.txt'
+"
+deny-symlink-007,deny.symlink,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/7.lnk'
+"
+deny-unlink-012,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/12-82857135.txt'
+"
+deny-exec-007,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-write-043,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-read-037,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/37-461017982.txt'
+"
+permit-rename-002,permit.rename,permitted,0,True,,
+deny-symlink-029,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/29.lnk'
+"
+permit-write-002,permit.write,permitted,0,True,,
+deny-rename-021,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/21-643017500.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/21-643017500.moved'
+"
+deny-rename-002,deny.rename,forbidden,1,True,kernel,"lf, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/2-887419687.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/2-887419687.moved'
+"
+deny-read-017,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/17-224898936.txt'
+"
+deny-truncate-018,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/18-306000263.txt'
+"
+deny-mkdir-033,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-exec-023,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+permit-rename-015,permit.rename,permitted,0,True,,
+permit-mkdir-014,permit.mkdir,permitted,0,True,,
+deny-rename-029,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/29-680544384.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/29-680544384.moved'
+"
+permit-mkdir-019,permit.mkdir,permitted,0,True,,
+deny-symlink-012,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/12.lnk'
+"
+permit-unlink-000,permit.unlink,permitted,0,True,,
+permit-unlink-008,permit.unlink,permitted,0,True,,
+deny-unlink-032,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/32-316661486.txt'
+"
+deny-read-028,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/28-440430418.txt'
+"
+deny-write-018,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-rename-014,permit.rename,permitted,0,True,,
+deny-exec-019,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-mkdir-017,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-dotdot-007,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/7-528783074.txt'
+"
+deny-exec-013,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+permit-read-008,permit.read,permitted,0,True,,
+deny-unlink-033,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/33-264372184.txt'
+"
+deny-symlink-016,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/16.lnk'
+"
+deny-mkdir-005,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-read-003,deny.read,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/3-392514933.txt'
+"
+permit-rename-008,permit.rename,permitted,0,True,,
+deny-truncate-008,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/8-891654070.txt'
+"
+permit-unlink-014,permit.unlink,permitted,0,True,,
+permit-mkdir-012,permit.mkdir,permitted,0,True,,
+deny-read-021,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/21-976735505.txt'
+"
+deny-unlink-016,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/16-767502815.txt'
+"
+deny-rename-009,deny.rename,forbidden,1,True,kernel,"lf, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/9-160729874.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/9-160729874.moved'
+"
+deny-truncate-001,deny.truncate,forbidden,1,True,kernel,"rors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/1-65050717.txt'
+"
+permit-write-020,permit.write,permitted,0,True,,
+permit-unlink-013,permit.unlink,permitted,0,True,,
+permit-mkdir-008,permit.mkdir,permitted,0,True,,
+deny-unlink-027,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/27-557474819.txt'
+"
+deny-read-042,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/42-132412581.txt'
+"
+permit-read-037,permit.read,permitted,0,True,,
+deny-rename-017,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/17-884761866.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/17-884761866.moved'
+"
+deny-truncate-013,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/13-41624061.txt'
+"
+deny-read-039,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/39-702190803.txt'
+"
+deny-write-046,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-write-003,permit.write,permitted,0,True,,
+deny-read-026,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/26-119997377.txt'
+"
+deny-read-014,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/14-906564137.txt'
+"
+deny-dotdot-003,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/3-359657242.txt'
+"
+deny-truncate-000,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/0-600837402.txt'
+"
+permit-read-001,permit.read,permitted,0,True,,
+permit-read-013,permit.read,permitted,0,True,,
+deny-unlink-002,deny.unlink,forbidden,1,True,kernel,"File ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/2-75850349.txt'
+"
+deny-unlink-025,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/25-335575004.txt'
+"
+deny-truncate-026,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/26-148865835.txt'
+"
+permit-write-001,permit.write,permitted,0,True,,
+permit-mkdir-005,permit.mkdir,permitted,0,True,,
+deny-write-048,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-write-021,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-write-005,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-truncate-020,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/20-830437214.txt'
+"
+deny-unlink-026,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/26-430183611.txt'
+"
+deny-dotdot-024,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/24-954170151.txt'
+"
+permit-hardlink-002,permit.hardlink,permitted,0,True,,
+deny-write-029,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-unlink-019,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/19-752102070.txt'
+"
+deny-symlink-006,deny.symlink,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/6.lnk'
+"
+deny-dotdot-006,deny.dotdot,forbidden,1,True,kernel,"ne)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/6-97582533.txt'
+"
+permit-unlink-001,permit.unlink,permitted,0,True,,
+permit-write-029,permit.write,permitted,0,True,,
+permit-unlink-002,permit.unlink,permitted,0,True,,
+deny-read-033,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/33-824073763.txt'
+"
+deny-dotdot-023,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/23-842470817.txt'
+"
+deny-read-013,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/13-769445720.txt'
+"
+deny-exec-006,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-mkdir-016,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+permit-mkdir-011,permit.mkdir,permitted,0,True,,
+permit-mkdir-002,permit.mkdir,permitted,0,True,,
+deny-write-001,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-write-008,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-read-040,permit.read,permitted,0,True,,
+permit-write-009,permit.write,permitted,0,True,,
+deny-rename-024,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/24-851139523.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/24-851139523.moved'
+"
+deny-dotdot-017,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/17-118947472.txt'
+"
+deny-write-028,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-write-006,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-mkdir-001,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+permit-read-033,permit.read,permitted,0,True,,
+deny-write-030,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-write-018,permit.write,permitted,0,True,,
+permit-read-011,permit.read,permitted,0,True,,
+deny-rename-011,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/11-953450783.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/11-953450783.moved'
+"
+deny-truncate-005,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/5-646412597.txt'
+"
+permit-unlink-010,permit.unlink,permitted,0,True,,
+deny-truncate-015,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/15-174586636.txt'
+"
+deny-read-047,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/47-240367120.txt'
+"
+deny-read-000,deny.read,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/0-377535232.txt'
+"
+permit-read-035,permit.read,permitted,0,True,,
+permit-write-012,permit.write,permitted,0,True,,
+permit-read-017,permit.read,permitted,0,True,,
+deny-mkdir-025,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-symlink-014,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/14.lnk'
+"
+deny-write-003,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-rename-007,deny.rename,forbidden,1,True,kernel,"lf, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/7-603560615.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/7-603560615.moved'
+"
+deny-read-027,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/27-963630107.txt'
+"
+deny-read-032,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/32-364223834.txt'
+"
+permit-unlink-016,permit.unlink,permitted,0,True,,
+deny-unlink-005,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/5-926367959.txt'
+"
+deny-rename-010,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/10-527980496.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/10-527980496.moved'
+"
+permit-read-032,permit.read,permitted,0,True,,
+permit-rename-005,permit.rename,permitted,0,True,,
+deny-truncate-014,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/14-620892888.txt'
+"
+permit-symlink-006,permit.symlink,permitted,0,True,,
+deny-symlink-030,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/30.lnk'
+"
+deny-write-034,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-truncate-003,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/3-833585428.txt'
+"
+deny-symlink-031,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/31.lnk'
+"
+permit-rename-009,permit.rename,permitted,0,True,,
+deny-mkdir-030,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+permit-rename-007,permit.rename,permitted,0,True,,
+deny-read-034,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/34-381547137.txt'
+"
+deny-dotdot-033,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/33-366971550.txt'
+"
+deny-truncate-006,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/6-502879167.txt'
+"
+permit-rename-011,permit.rename,permitted,0,True,,
+deny-dotdot-019,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/19-970206988.txt'
+"
+deny-dotdot-025,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/25-101166726.txt'
+"
+deny-truncate-023,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/23-258179144.txt'
+"
+deny-write-044,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-write-013,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-symlink-008,permit.symlink,permitted,0,True,,
+deny-mkdir-009,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-truncate-033,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/33-965906255.txt'
+"
+permit-write-005,permit.write,permitted,0,True,,
+deny-exec-005,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-dotdot-022,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/22-527320963.txt'
+"
+deny-rename-030,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/30-214311029.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/30-214311029.moved'
+"
+permit-rename-010,permit.rename,permitted,0,True,,
+deny-read-008,deny.read,forbidden,1,True,kernel,", errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/8-56521175.txt'
+"
+deny-rename-034,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/34-901706983.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/34-901706983.moved'
+"
+deny-write-040,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-read-004,permit.read,permitted,0,True,,
+deny-symlink-024,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/24.lnk'
+"
+deny-truncate-021,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/21-49169819.txt'
+"
+permit-read-006,permit.read,permitted,0,True,,
+permit-symlink-005,permit.symlink,permitted,0,True,,
+deny-mkdir-022,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+permit-write-024,permit.write,permitted,0,True,,
+permit-write-028,permit.write,permitted,0,True,,
+deny-symlink-001,deny.symlink,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/1.lnk'
+"
+deny-write-002,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-symlink-015,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/15.lnk'
+"
+deny-read-001,deny.read,forbidden,1,True,kernel,", errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/1-53415447.txt'
+"
+deny-write-007,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-write-014,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-write-025,permit.write,permitted,0,True,,
+permit-read-027,permit.read,permitted,0,True,,
+permit-read-015,permit.read,permitted,0,True,,
+deny-read-049,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/49-245283442.txt'
+"
+deny-read-036,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/36-118398319.txt'
+"
+deny-truncate-002,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/2-180553247.txt'
+"
+permit-write-022,permit.write,permitted,0,True,,
+deny-unlink-014,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/14-739303075.txt'
+"
+deny-rename-014,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/14-590510814.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/14-590510814.moved'
+"
+deny-dotdot-018,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/18-625874352.txt'
+"
+permit-read-028,permit.read,permitted,0,True,,
+permit-read-030,permit.read,permitted,0,True,,
+deny-read-002,deny.read,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/2-165087862.txt'
+"
+deny-unlink-020,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/20-427987406.txt'
+"
+deny-mkdir-013,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-exec-016,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+permit-hardlink-008,permit.hardlink,permitted,0,True,,
+deny-dotdot-034,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/34-47158101.txt'
+"
+deny-write-023,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-unlink-017,permit.unlink,permitted,0,True,,
+deny-rename-003,deny.rename,forbidden,1,True,kernel,"lf, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/3-731397910.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/3-731397910.moved'
+"
+permit-unlink-018,permit.unlink,permitted,0,True,,
+permit-mkdir-015,permit.mkdir,permitted,0,True,,
+deny-dotdot-021,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/21-215034166.txt'
+"
+deny-rename-032,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/32-775027937.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/32-775027937.moved'
+"
+deny-mkdir-003,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+permit-symlink-002,permit.symlink,permitted,0,True,,
+deny-write-031,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-write-036,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-unlink-009,permit.unlink,permitted,0,True,,
+deny-read-010,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/10-127044479.txt'
+"
+permit-mkdir-000,permit.mkdir,permitted,0,True,,
+deny-write-041,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-truncate-010,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/10-372094850.txt'
+"
+permit-read-012,permit.read,permitted,0,True,,
+permit-write-013,permit.write,permitted,0,True,,
+permit-unlink-012,permit.unlink,permitted,0,True,,
+deny-symlink-008,deny.symlink,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/8.lnk'
+"
+deny-mkdir-011,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-rename-015,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/15-763645518.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/15-763645518.moved'
+"
+deny-rename-001,deny.rename,forbidden,1,True,kernel,"lf, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/1-343940593.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/1-343940593.moved'
+"
+permit-read-014,permit.read,permitted,0,True,,
+permit-read-003,permit.read,permitted,0,True,,
+deny-unlink-000,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/0-423764661.txt'
+"
+deny-dotdot-031,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/31-798832234.txt'
+"
+deny-dotdot-012,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/12-989615024.txt'
+"
+permit-rename-003,permit.rename,permitted,0,True,,
+permit-unlink-015,permit.unlink,permitted,0,True,,
+deny-symlink-000,deny.symlink,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/0.lnk'
+"
+deny-mkdir-023,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-truncate-016,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/16-389609512.txt'
+"
+permit-read-041,permit.read,permitted,0,True,,
+permit-mkdir-007,permit.mkdir,permitted,0,True,,
+deny-write-047,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-truncate-027,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/27-31869122.txt'
+"
+permit-rename-006,permit.rename,permitted,0,True,,
+deny-read-004,deny.read,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/4-666997454.txt'
+"
+deny-read-044,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/44-183537974.txt'
+"
+deny-dotdot-028,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/28-335882477.txt'
+"
+deny-mkdir-004,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-truncate-007,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/7-116793877.txt'
+"
+deny-read-007,deny.read,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/7-465816817.txt'
+"
+permit-mkdir-017,permit.mkdir,permitted,0,True,,
+permit-read-042,permit.read,permitted,0,True,,
+deny-mkdir-034,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-rename-004,deny.rename,forbidden,1,True,kernel,"lf, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/4-998348683.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/4-998348683.moved'
+"
+permit-symlink-001,permit.symlink,permitted,0,True,,
+permit-read-000,permit.read,permitted,0,True,,
+deny-dotdot-000,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/0-273387915.txt'
+"
+permit-mkdir-010,permit.mkdir,permitted,0,True,,
+deny-exec-022,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-write-017,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-read-043,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/43-696356975.txt'
+"
+deny-truncate-034,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/34-742140534.txt'
+"
+permit-read-020,permit.read,permitted,0,True,,
+deny-dotdot-020,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/20-326150775.txt'
+"
+permit-read-005,permit.read,permitted,0,True,,
+deny-unlink-004,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/4-439311651.txt'
+"
+permit-hardlink-005,permit.hardlink,permitted,0,True,,
+permit-mkdir-004,permit.mkdir,permitted,0,True,,
+deny-rename-012,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/12-355737127.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/12-355737127.moved'
+"
+deny-rename-022,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/22-444554823.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/22-444554823.moved'
+"
+deny-truncate-009,deny.truncate,forbidden,1,True,kernel,"ors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/9-334606127.txt'
+"
+permit-unlink-007,permit.unlink,permitted,0,True,,
+deny-dotdot-014,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/14-904425435.txt'
+"
+permit-rename-017,permit.rename,permitted,0,True,,
+permit-mkdir-009,permit.mkdir,permitted,0,True,,
+permit-hardlink-004,permit.hardlink,permitted,0,True,,
+deny-rename-026,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/26-656459557.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/26-656459557.moved'
+"
+deny-truncate-011,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/11-343195385.txt'
+"
+permit-read-024,permit.read,permitted,0,True,,
+permit-write-004,permit.write,permitted,0,True,,
+permit-write-007,permit.write,permitted,0,True,,
+deny-unlink-017,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/17-350611772.txt'
+"
+deny-write-039,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-read-031,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/31-131428021.txt'
+"
+deny-mkdir-002,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-truncate-028,deny.truncate,forbidden,1,True,kernel,"rors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/28-1153972.txt'
+"
+deny-rename-006,deny.rename,forbidden,1,True,kernel,"lf, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/6-340286521.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/6-340286521.moved'
+"
+deny-write-009,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-unlink-005,permit.unlink,permitted,0,True,,
+deny-exec-020,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-write-035,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-unlink-001,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/1-885421666.txt'
+"
+permit-write-016,permit.write,permitted,0,True,,
+deny-rename-028,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/28-928365915.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/28-928365915.moved'
+"
+deny-exec-001,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-unlink-006,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/6-903492035.txt'
+"
+deny-dotdot-004,deny.dotdot,forbidden,1,True,kernel,"ne)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/4-75533578.txt'
+"
+deny-exec-008,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-rename-018,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/18-827961814.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/18-827961814.moved'
+"
+permit-read-039,permit.read,permitted,0,True,,
+permit-rename-012,permit.rename,permitted,0,True,,
+permit-write-006,permit.write,permitted,0,True,,
+deny-dotdot-027,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/27-65534540.txt'
+"
+deny-symlink-028,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/28.lnk'
+"
+permit-rename-001,permit.rename,permitted,0,True,,
+permit-symlink-000,permit.symlink,permitted,0,True,,
+deny-read-024,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/24-541703875.txt'
+"
+deny-read-030,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/30-217703098.txt'
+"
+deny-mkdir-020,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-rename-000,deny.rename,forbidden,1,True,kernel,"lf, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/0-283987979.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/0-283987979.moved'
+"
+deny-unlink-015,deny.unlink,forbidden,1,True,kernel,"ile ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/15-84000605.txt'
+"
+deny-write-025,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-write-012,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+permit-write-027,permit.write,permitted,0,True,,
+deny-mkdir-032,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-exec-015,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+permit-read-034,permit.read,permitted,0,True,,
+deny-exec-009,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+permit-read-029,permit.read,permitted,0,True,,
+deny-symlink-005,deny.symlink,forbidden,1,True,kernel," errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/5.lnk'
+"
+permit-read-025,permit.read,permitted,0,True,,
+deny-mkdir-029,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+deny-rename-005,deny.rename,forbidden,1,True,kernel,"self, target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/5-41019460.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/5-41019460.moved'
+"
+deny-exec-000,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+permit-read-021,permit.read,permitted,0,True,,
+deny-dotdot-015,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/15-207288274.txt'
+"
+permit-rename-016,permit.rename,permitted,0,True,,
+deny-dotdot-005,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/5-204583973.txt'
+"
+deny-exec-004,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+permit-read-009,permit.read,permitted,0,True,,
+deny-read-045,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/45-211496938.txt'
+"
+deny-exec-010,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-write-019,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-exec-011,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-write-033,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-symlink-021,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/21.lnk'
+"
+permit-mkdir-016,permit.mkdir,permitted,0,True,,
+permit-read-022,permit.read,permitted,0,True,,
+deny-read-022,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/22-452383105.txt'
+"
+deny-symlink-018,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/18.lnk'
+"
+deny-unlink-024,deny.unlink,forbidden,1,True,kernel,"le ""/usr/local/lib/python3.12/pathlib.py"", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-unlink/24-901195282.txt'
+"
+permit-mkdir-018,permit.mkdir,permitted,0,True,,
+deny-rename-013,deny.rename,forbidden,1,True,kernel,", target)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-rename/13-514884819.txt' -> '/root/leap-zt-landlock-corpus/outside/deny-rename/13-514884819.moved'
+"
+deny-mkdir-010,deny.mkdir,forbidden,1,True,kernel,"_ok=True)
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-mkdir'
+"
+permit-write-010,permit.write,permitted,0,True,,
+deny-truncate-032,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/32-407789386.txt'
+"
+deny-truncate-029,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/29-872070954.txt'
+"
+permit-read-031,permit.read,permitted,0,True,,
+deny-write-010,deny.write,forbidden,1,True,kernel," <module>
+  File ""/usr/local/lib/python3.12/pathlib.py"", line 1311, in mkdir
+    os.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-write'
+"
+deny-truncate-019,deny.truncate,forbidden,1,True,kernel,"rs, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-truncate/19-901723060.txt'
+"
+permit-read-016,permit.read,permitted,0,True,,
+deny-read-023,deny.read,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/outside/deny-read/23-655880694.txt'
+"
+deny-dotdot-026,deny.dotdot,forbidden,1,True,kernel,")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/26-813164094.txt'
+"
+permit-write-014,permit.write,permitted,0,True,,
+deny-symlink-017,deny.symlink,forbidden,1,True,kernel,"errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/deny-symlink-link/17.lnk'
+"
+permit-write-021,permit.write,permitted,0,True,,
+deny-exec-002,deny.exec,forbidden,126,True,policy-preflight,executable denied: /bin/echo
+deny-dotdot-009,deny.dotdot,forbidden,1,True,kernel,"e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/root/leap-zt-landlock-corpus/workspace/../outside/deny-dotdot/9-627350406.txt'
+"
