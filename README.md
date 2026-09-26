@@ -107,16 +107,6 @@ The BPF-LSM backend is a prototype. I keep its GitHub workflow manual-only until
 
 Least privilege does not decide whether a tool call is semantically safe. In-policy attacks can still pass when they stay inside the configured authority and do not carry recognizable secret material.
 
-## Related projects
-
-- [Zero Trust Agent Benchmark](https://github.com/zero-trust-agent-benchmark/zero-trust-agent-benchmark): shared trace generator and scorer for the related projects.
-- [Contextual Trust Policy Engine](https://github.com/contextual-trust-policy-engine/contextual-trust-policy-engine): evaluates contextual policy decisions before tools run.
-- [Zero Trust AI Agent Proxy](https://github.com/zero-trust-ai-agent-proxy/zero-trust-ai-agent-proxy): proxy layer for checking tool requests at a service boundary.
-- [Model Context Protocol Guard](https://github.com/model-context-protocol-guard/model-context-protocol-guard): validates MCP tool metadata and calls.
-- [Ephemeral Agent Secret Leasing](https://github.com/ephemeral-agent-secret-leasing/ephemeral-agent-secret-leasing): issues short-lived scoped secrets to agents.
-- [AI Bill of Materials Verifier](https://github.com/ai-bill-of-materials-verifier/ai-bill-of-materials-verifier): verifies signed AI-BOM metadata for models, prompts, tools, and datasets.
-- [Zero Trust Edge Agent Mesh](https://github.com/zero-trust-edge-agent-mesh/zero-trust-edge-agent-mesh): coordinates policy and identity checks across edge agents.
-
 ## License
 
 Apache-2.0. See `LICENSE`. Citation metadata is in `CITATION.cff` as a software citation.
