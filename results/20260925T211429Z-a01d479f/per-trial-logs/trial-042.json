@@ -1,0 +1,21 @@
+{
+  "connect_audit_overhead_us": -154.209,
+  "connect_audit_us": 413.426,
+  "connect_no_us": 567.635,
+  "decision_us": 73.804,
+  "exec_audit_overhead_us": 22670.4,
+  "exec_audit_us": 63607.528,
+  "exec_landlock_overhead_us": 53413.49800000001,
+  "exec_landlock_us": 94350.626,
+  "exec_no_us": 40937.128,
+  "open_audit_overhead_us": 269.16461999999996,
+  "open_audit_us": 292.48006,
+  "open_landlock_overhead_us": 306.88496,
+  "open_no_us": 23.31544,
+  "policy_size": 100,
+  "svid_hit_us": 13.001,
+  "svid_initial_hit": true,
+  "svid_miss_us": 489.93,
+  "timestamp_utc": "2026-09-25T21:14:59.281483Z",
+  "trial": 42
+}

@@ -1,0 +1,9 @@
+subjects:
+  "spiffe://example.org/agent/*":
+    allowed_tools: ["exec", "file.read", "http.get"]
+    fs:
+      read: ["."]
+      write: ["."]
+    executables: ["python"]
+    network: ["example.com:443"]
+    max_arg_bytes: 4096

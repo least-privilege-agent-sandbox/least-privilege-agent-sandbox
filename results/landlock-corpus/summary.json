@@ -1,0 +1,88 @@
+{
+  "by_category": {
+    "deny.dotdot": {
+      "ok": 35,
+      "total": 35
+    },
+    "deny.exec": {
+      "ok": 25,
+      "total": 25
+    },
+    "deny.mkdir": {
+      "ok": 35,
+      "total": 35
+    },
+    "deny.read": {
+      "ok": 50,
+      "total": 50
+    },
+    "deny.rename": {
+      "ok": 35,
+      "total": 35
+    },
+    "deny.symlink": {
+      "ok": 35,
+      "total": 35
+    },
+    "deny.truncate": {
+      "ok": 35,
+      "total": 35
+    },
+    "deny.unlink": {
+      "ok": 35,
+      "total": 35
+    },
+    "deny.write": {
+      "ok": 50,
+      "total": 50
+    },
+    "permit.hardlink": {
+      "ok": 10,
+      "total": 10
+    },
+    "permit.mkdir": {
+      "ok": 20,
+      "total": 20
+    },
+    "permit.read": {
+      "ok": 45,
+      "total": 45
+    },
+    "permit.rename": {
+      "ok": 20,
+      "total": 20
+    },
+    "permit.symlink": {
+      "ok": 10,
+      "total": 10
+    },
+    "permit.unlink": {
+      "ok": 20,
+      "total": 20
+    },
+    "permit.write": {
+      "ok": 30,
+      "total": 30
+    }
+  },
+  "denial_rate": {
+    "count": 335,
+    "high": 1.0,
+    "low": 0.988662961037696,
+    "n": 335,
+    "point": 1.0
+  },
+  "forbidden_operations": 335,
+  "landlock_abi": 3,
+  "permitted_operations": 155,
+  "permitted_success_rate": {
+    "count": 155,
+    "high": 1.0,
+    "low": 0.9758157671856282,
+    "n": 155,
+    "point": 1.0
+  },
+  "status": "PASS",
+  "timestamp_utc": "2026-09-25T21:11:11.530664Z",
+  "total_operations": 490
+}

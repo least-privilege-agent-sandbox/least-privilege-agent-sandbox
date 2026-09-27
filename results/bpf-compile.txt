@@ -1,0 +1,5 @@
+Berkeley Packet Filter compile status: PASS
+Command: clang -O2 -g -target bpf -I/usr/include/$(uname -m)-linux-gnu -c bpf/sandbox_lsm.bpf.c -o bpf/sandbox_lsm.bpf.o
+Environment: python:3.12-slim Docker container after apt-get install -y --no-install-recommends clang libbpf-dev
+Output: bpf/sandbox_lsm.bpf.o 8872 bytes
+Runtime status: not measured locally; Docker/host kernel lacks the Berkeley Packet Filter Linux Security Module.

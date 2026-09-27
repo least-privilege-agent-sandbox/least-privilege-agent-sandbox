@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="least-privilege-agent-sandbox">
+  <defs>
+    <linearGradient id="g-least-privilege-agent-sandbox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F47C3C"/>
+      <stop offset="1" stop-color="#C2410C"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#g-least-privilege-agent-sandbox)"/>
+  <g>
+      <rect x="104" y="104" width="304" height="304" rx="40" stroke="#fff" stroke-width="24" stroke-dasharray="44 30" fill="none" stroke-linecap="round"/>
+      <rect x="196" y="244" width="120" height="96" rx="18" stroke="#fff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path d="M220 244 V214 C220 190 236 176 256 176 C276 176 292 190 292 214 V244" stroke="#fff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+</svg>

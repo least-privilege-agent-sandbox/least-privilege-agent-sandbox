@@ -1,0 +1,106 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "least-privilege-agent-sandbox"
+version = "0.1.0"
+description = "Policy-driven sandbox for agent tool calls"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+authors = [{name = "Parag Sawant"}]
+keywords = ["sandbox", "landlock", "spiffe", "svid", "zero-trust", "agents"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Security",
+]
+dependencies = [
+  "cryptography>=46.0.0; platform_system != 'Windows' or platform_machine != 'ARM64'",
+  "PyYAML>=6.0.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.0",
+  "pytest-cov>=5.0.0",
+  "hypothesis>=6.112.0",
+  "ruff>=0.8.0",
+  "mypy>=1.13.0",
+  "types-PyYAML>=6.0.12.20240917",
+]
+bench = [
+  "zero-trust-agent-benchmark @ git+https://github.com/zero-trust-agent-benchmark/zero-trust-agent-benchmark@v0.1.0",
+]
+
+[project.scripts]
+least-privilege-agent-sandbox = "least_privilege_agent_sandbox.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/least_privilege_agent_sandbox"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["src/least_privilege_agent_sandbox/stats.py", "tests/test_conformance.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S", "SIM", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S603", "S607"]
+"bench/**" = ["S101", "S603", "S607", "S108", "S101"]
+"scripts/**" = ["S101", "S603", "S607"]
+"src/least_privilege_agent_sandbox/landlock.py" = ["S603"]
+"src/least_privilege_agent_sandbox/runner.py" = ["S603"]
+"src/least_privilege_agent_sandbox/cli.py" = ["S603"]
+"src/least_privilege_agent_sandbox/bpf_loader.py" = ["S603"]
+"src/least_privilege_agent_sandbox/stats.py" = ["RUF022", "S311"]
+"tests/test_conformance.py" = ["S101", "SIM300"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+mypy_path = "src"
+
+[[tool.mypy.overrides]]
+module = ["yaml.*", "cryptography.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "integration: requires Linux kernel features or external infrastructure",
+]
+filterwarnings = ["error"]
+
+[tool.coverage.run]
+branch = true
+source = ["least_privilege_agent_sandbox"]
+omit = [
+  "src/least_privilege_agent_sandbox/stats.py",
+  "src/least_privilege_agent_sandbox/bpf_loader.py",
+  "src/least_privilege_agent_sandbox/audit_guard.py",
+  "src/least_privilege_agent_sandbox/cli.py",
+  "src/least_privilege_agent_sandbox/landlock.py",
+  "src/least_privilege_agent_sandbox/svid.py",
+  "src/least_privilege_agent_sandbox/benchmark_default.py",
+]
+
+[tool.coverage.report]
+show_missing = true
+exclude_also = [
+  "if __name__ == .__main__.",
+  "if os.name == .nt.",
+  "if sys.platform != .linux.",
+  "pragma: no cover",
+]
