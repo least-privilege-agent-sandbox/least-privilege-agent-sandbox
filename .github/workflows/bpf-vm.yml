@@ -7,7 +7,7 @@ jobs:
   bpf:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - run: sudo apt-get update && sudo apt-get install -y clang libbpf-dev linux-tools-generic
       - run: arch=$(uname -m); clang -O2 -g -target bpf -I/usr/include/${arch}-linux-gnu -c bpf/sandbox_lsm.bpf.c -o bpf/sandbox_lsm.bpf.o
       - run: echo "Runtime Berkeley Packet Filter Linux Security Module tests require a virtual machine booted with lsm=capability,landlock,yama,bpf"
